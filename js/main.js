@@ -5,10 +5,10 @@
 //Se età >=64 anni, prezzo base - 40% del prezzo base; 
 
 
-var chilometriDapercorrere = prompt("Quanti chilometri vuoi percorrere?");
+var chilometriDaPercorrere = prompt("Quanti chilometri vuoi percorrere?");
 var età = prompt("Quanti anni hai?");
-var prezzoBase = (chilometriDapercorrere * 0.21);
-document.getElementById("percorrenza").innerHTML = "Percorrerò: " + chilometriDapercorrere + " km";
+var prezzoBase = (chilometriDaPercorrere * 0.21);
+document.getElementById("percorrenza").innerHTML = "Percorrerò: " + chilometriDaPercorrere + " km";
 document.getElementById("eta").innerHTML = "Dichiaro di avere: " + età + " anni";
 
 if (età >= 120) {
